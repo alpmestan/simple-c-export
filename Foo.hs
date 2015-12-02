@@ -1,4 +1,3 @@
--- {-# LANGUAGE CPP #-}
 {-# LANGUAGE ForeignFunctionInterface #-}
 module Foo where
 
