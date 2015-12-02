@@ -1,0 +1,12 @@
+name:                simple-c-export
+version:             0.1
+author:              Alp Mestanogullari
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable simple-c
+  main-is: run-haskell.c
+  ghc-options: -no-hs-main
+  other-modules: Foo
+  build-depends: base
+  default-language:    Haskell2010
